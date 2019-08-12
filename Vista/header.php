@@ -32,7 +32,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="wrapper_top_w3layouts">
 			<div class="header_agileits">
 				<div class="logo inner_page_log">
-					<h1><a class="navbar-brand" href="../index.php"><span>Downy</span> <i>Shoes</i></a></h1>
+					<h1><a class="navbar-brand" href="../Vista/index.php"><span>Downy</span> <i>Shoes</i></a></h1>
 				</div>
 				<div class="overlay overlay-contentpush">
 					<button type="button" class="overlay-close"><i class="fa fa-times" aria-hidden="true"></i></button>
@@ -40,10 +40,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<nav>
 						<ul>
 							<li><a href="../index.php" class="active">Inicio</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="404.html">Team</a></li>
+							<li><a href="../nosotros.html">About</a></li>
+							<li><a href="../error404.html">Team</a></li>
 							<li><a href="../Controlador/controlador_sneakers.php?op=1">Comprar Ahora</a></li>
-							<li><a href="contact.html">Contacto</a></li>
+							<li><a href="../contacto.html">Contacto</a></li>
+							<?php 
+								if (isset($_SESSION['user'])) {
+									echo '<li><a href="Vista/login.php">'.$user->getCurrentUser().'</a></li>';
+									echo '<li><a href="../Controlador/controlador_sneakers.php?op=2">Cerrar Sesion</a></li>';
+								}else{  
+							?>
+								<li><a href="../Vista/login.php">Login</a></li>
+								<li><a href="../Vista/registrar.php">Registrarse</a></li>
+							<?php 
+								}
+							?>
 						</ul>
 					</nav>
 				</div>

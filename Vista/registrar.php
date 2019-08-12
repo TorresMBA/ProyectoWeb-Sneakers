@@ -17,8 +17,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link href="//fonts.googleapis.com/css?family=Montserrat:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
 	    rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
-	<style type="text/css">
-	</style>
 <body>
 	<?php
 		include_once 'header.php';
@@ -30,7 +28,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="inner_section_w3ls">
 				<div class="col-md-7 contact_grid_right">
 					<h6>Rellene los datos para Registrarse.</h6>
-					<form action="#" method="post">
+					<form action="../Controlador/controlador_sesion.php?op=2" method="post">
 						<div class="col-md-6 col-sm-6 contact_left_grid">
 							<input type="text" name="Name" placeholder="Nombre" required="">
 							<input type="text" name="Ape" placeholder="Apellido" required="">
@@ -40,13 +38,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-6 col-sm-6 contact_left_grid">
 							<input type="text" name="Telephone" placeholder="Celular" required="">
 							<input type="text" name="Dirrecion" placeholder="Dirrecion" required=""><br><br>
+							<input type="text" name="Usuario" placeholder="Usuario" required=""><br><br>
 							<input type="text" name="Pass" placeholder="Contraseña" required="">
 
 						</div>
 						<div class="clearfix">  </div>
 						<br>
 						<input type="submit" value="Registrar">
-
 					</form>
 				</div>	
 				<div class="clearfix"> </div>

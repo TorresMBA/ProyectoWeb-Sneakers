@@ -6,7 +6,7 @@
 		case 1:
 			$obj = new modelo_sneakers();
 			$datos = $obj->listar_calzado();
-			include '../Vista/index.php';
+			include '../Vista/main.php';
 			break;
 		case 2:
 			# code...
