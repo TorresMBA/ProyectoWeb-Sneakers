@@ -48,6 +48,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<li><a href="404.html">Team</a></li>
 							<li><a href="Controlador/controlador_sneakers.php?op=1">Comprar Ahora</a></li>
 							<li><a href="contact.html">Contacto</a></li>
+							<li><a href="Vista/login.php">Login</a></li>
+							<li><a href="Vista/register.php">Registrarse</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -153,7 +155,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur.sed quia non numquam eius modi
 						tempora incidunt ut labore et dolore .</p>
 					<div class="shop-button">
-						<a href="shop.html">Comprar Ahora</a>
+						<a href="Controlador/controlador_sneakers.php?op=1">Comprar Ahora</a>
 					</div>
 				</div>
 			</div>
@@ -177,7 +179,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h3>Adidas ULTRABOOST</h3>
 						<p>Retomando elementos de los 90, OZWEEGO luce un diseño con líneas definidas en la mediasuela, un tubo de TPU traslúcido y la tecnología adiPRENE.</p>
 						<div class="shop-button">
-							<a href="shop.html">Comprar Ahora</a>
+							<a href="Controlador/controlador_sneakers.php?op=1">Comprar Ahora</a>
 						</div>
 					</div>
 				</div>
@@ -202,7 +204,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur.sed quia non numquam eius modi
 							tempora incidunt ut labore .</p>
 						<div class="shop-button two">
-							<a href="shop.html">Comprar Ahora</a>
+							<a href="Controlador/controlador_sneakers.php?op=1">Comprar Ahora</a>
 						</div>
 					</div>
 				</div>
@@ -357,13 +359,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-9 footer-right">
 				<div class="sign-grds">
 					<div class="col-md-4 sign-gd">
-						<h4>Our <span>Information</span> </h4>
+						<h4>Our <span>Information</span></h4>
 						<ul>
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index.php">Home</a></li>
 							<li><a href="about.html">About</a></li>
 							<li><a href="404.html">Services</a></li>
 							<li><a href="404.html">Short Codes</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="contact.html">Contacto</a></li>
+							<li><a href="login.php">Login</a></li>
 						</ul>
 					</div>
 

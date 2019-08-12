@@ -39,11 +39,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 					<nav>
 						<ul>
-							<li><a href="index.html" class="active">Home</a></li>
+							<li><a href="../index.php" class="active">Inicio</a></li>
 							<li><a href="about.html">About</a></li>
 							<li><a href="404.html">Team</a></li>
-							<li><a href="shop.html">Shop Now</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="../Controlador/controlador_sneakers.php?op=1">Comprar Ahora</a></li>
+							<li><a href="contact.html">Contacto</a></li>
 						</ul>
 					</nav>
 				</div>
