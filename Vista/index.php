@@ -1,5 +1,5 @@
 <?php
 	include 'header.php';
-	include 'shops.php';
+	include 'shop.php';
 	include 'footer.php';
 ?>	
